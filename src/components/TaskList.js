@@ -10,7 +10,6 @@ const TaskList = ({ tasks, updateTask, deleteTask }) => {
             key={task.id}
             task={task}
             updateTask={updateTask}
-            deleteTask={deleteTask}
           />
         ))
       ) : (
